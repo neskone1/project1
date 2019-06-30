@@ -1,11 +1,71 @@
 
-h1{
-    color: white;
+body {
+    background-color:darkslategray;
+}
 
+
+
+.container
+{
+color:black;
+text-align: center;
+text-shadow:black 
+}
+
+.collapse{
+color:black;
+align-content: center;
+}
+.row {
+align-content: center;
+}
+
+.jumbotron{
+background-color: cadetblue;
 
 }
-body {
-    background-color:gray;}
+.thumbnail {
+background-color:cadetblue;
+border: 1px;
+
+}
+.dropdown-menu{
+    text-decoration-color: rgb(31, 184, 184);
+}
+
+#bs-example-navbar-collapse-2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+ 
+   
+}
+
+.dropdown-toggle{
+    color: aliceblue;
+}
+a {
+
+    color: white;}
+
+    .parent-containers {
+        display: flex;
+        padding: 20px;
+        text-align: center
+        
+        
+        
+
+     }
+
+     footer{
+         color:white ;
+         
+     }
+
+     h3{
+         color: aliceblue
+     }
 
 
-
+      
