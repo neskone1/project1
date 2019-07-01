@@ -66,8 +66,8 @@
         <div class="jumbotron">
             <div class="container">
                 <div class="row">
-                    <h1>(Bytes Donations)</h1>
-                    <p>Restaurants | Food companies | Food Banks</p>
+                    <h1>(Byte&Hunger)</h1>
+                    <p>Donations | Restaurants | Food companies | Food Banks</p>
                     
 
                     <div class="col-lg-6">
@@ -87,41 +87,15 @@
     </div>
     <!---------End Jumbotron---------------->
 
-    <!------------Google Maps------------------>
+   
     <div class="container">
         <div class="row">
             <div class="col-md-lg-12">
-                <style>
-                    /* Set the size of the div element that contains the map */
-                    #map {
-                        height: 400px;  /* The height is 400 pixels */
-                        width: 100%;  /* The width is the width of the web page */
-                    }
-                    </style>
-                      
-                      <h3> Google Maps </h3>
-                      <!--The div element for the map -->
-                      <div id="map"></div>
-                      <script>
-                     // Initialize and add the map
-                     function initMap() {
-                       // The location of Uluru
-                       var uluru = {lat: -25.344, lng: 131.036};
-                       // The map, centered at Uluru
-                       var map = new google.maps.Map(
-                           document.getElementById('map'), {zoom: 4, center: uluru});
-                       // The marker, positioned at Uluru
-                       var marker = new google.maps.Marker({position: uluru, map: map});
-                     }
-                         </script>
-                         <!--Load the API from the specified URL
-                            * The async attribute allows the browser to render the page while the API loads
-                            * The key parameter will contain your own API key 
-                            * The callback parameter executes the initMap() function
-                        -->
-                        <script async defer
-                         src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-                         </script>
+                <!-------------------=-The div element for the map ---------------------->
+                 <div id="map">
+                    <p class="map-text"> Map goes here! </p>
+                 </div>
+                      <!------------------End of map div------------->
 </div>
 </div>
 </div>
@@ -129,21 +103,39 @@
 <div class="parent-containers">
         <div class="container">
             <div class="row">
-                <div class="col-md-lg-6" style="background-color:darkcyan;">
+                <div id="container-left" class="col-md-lg-6" >
                    
-                    Container Left
+                    <p class="container-left">Container Left</p>
                     
                 </div>
             </div>
         </div>
 <div class="container">
                 <div class="row">
-                    <div class="col-md-lg-6" style="background-color:rgb(76, 186, 186);">
-                        Container Right
+                    <div id="container-right" class="col-md-lg-6" >
+                        <p class="container-right">Container Right</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="parent-containers">
+            <div class="container">
+                <div class="row">
+                    <div id="container-bottom-left" class="col-md-lg-6" >
+                       
+                        <p class="container-left"> Bottom Container Left</p>
+                        
+                    </div>
+                </div>
+            </div>
+    <div class="container">
+                    <div class="row">
+                        <div id="container-bottom-right" class="col-md-lg-6" >
+                            <p class="container-right">Bottom Container Right</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         
 
